@@ -1,6 +1,6 @@
 # Ethereum-KickStart
 This is a web applicaton for crowdfunding projects. A user can create a campaign to collect fundings from the investors. The user can define the request to use a part of the fund in different areas such as contracting or purchasing. The investors will vote to reject or permit the request. Then the user can tranfer that part of fund to the contractors or sellers if the request is accepted by investors.<br>
-The front-end of the web application is developed using React and the back-end is developed using Next.js and node.js. It is not using create-react-app, because I found that Next.js has many advantages compared with create-react-app when building a multi-page application.<br>
+The front-end of the web application is developed using React and the back-end is developed using Next.js and node.js. It is not using create-react-app, because I found that Next.js has many advantages compared with create-react-app when building a multi-page application. Npm module next-routes is also used to enhance the route handling<br>
 The front-end of this application is developed using semantic-ui-react and semantic-ui-css. Both npm modules work together to provide the graphic elements and their CSS styles.<bc>
 <br>
 The steps to develop an Ethereum web application, or a Blockchain web application generally, are:<br>
