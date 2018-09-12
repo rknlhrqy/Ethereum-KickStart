@@ -16,3 +16,6 @@ To run it, you need to have an account in Ethereum network. To sign up in Ethere
 <br>
 This application is using the Rinkeby test network. it is not using Ethereum main network which requires the real money.<br> 
 This applicatoin is using Infura API to access Rinkeby test network. Please sign up in https://infura.io and get your personal web address to access Rinkeby network and replace the one used in file web3.js.<br>
+Before running this application, you need to build and deploy the smart contract in Rinkeby network. In the root folder, just run:<br>
+1, "node ./ethereum/compile.js"<br>
+2, "node ./ethereum/deploy.js"<br>
