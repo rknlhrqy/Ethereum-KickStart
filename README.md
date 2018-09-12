@@ -1,6 +1,7 @@
 # Ethereum-KickStart
 This is a web applicaton for crowdfunding projects. A user can create a campaign to collect fundings from the investors. The user can define the request to use a part of the fund in different areas such as contracting or purchasing. The investors will vote to reject or permit the request. Then the user can tranfer that part of fund to the contractors or sellers if the request is accepted by investors.<br>
 The front-end of the web application is developed using React and the back-end is developed using Next.js and node.js. It is not using create-react-app, because I found that Next.js has many advantages compared with create-react-app when building a multi-page application.<br>
+The front-end of this application is developed using semantic-ui-react and semantic-ui-css. Both npm modules work together to provide the graphic elements and their CSS styles.<bc>
 <br>
 The steps to develop an Ethereum web application, or a Blockchain web application generally, are:<br>
 1, Using http://remix.ethereum.org to develop/debug the smart contract.<br>
@@ -13,5 +14,5 @@ To run it, you need to have an account in Ethereum network. To sign up in Ethere
 2, install MetaMask as Chrome's extension.<br>
 3, apply for an account using MetaMask. Get some ethers for testing purpose: Go to faucet.rinkeby.io. or Go to rinkeby-faucet.com.<br>
 <br>
-This application is using the Rinkeby test network. it is not using Ethereum main network which requires the real money. 
-This applicatoin is using Infura API to access Rinkeby test network. Please sign up in https://infura.io and get your personal web address to access Rinkeby network and replace the one used in file web3.js.
+This application is using the Rinkeby test network. it is not using Ethereum main network which requires the real money.<br> 
+This applicatoin is using Infura API to access Rinkeby test network. Please sign up in https://infura.io and get your personal web address to access Rinkeby network and replace the one used in file web3.js.<br>
