@@ -1,5 +1,5 @@
 # Ethereum-KickStart
-This is a web server for people to define a donation campaign. Participants of a donation campaign can decide the receiver of this donation.<br>
+This is a web applicaton for crowdfunding projects. A user can create a campaign to collect fundings from the investors. The user can define the request to use a part of the fund in different areas such as contracting or purchasing. The investors will vote to reject or permit the request. Then the user can tranfer that part of fund to the contractors or sellers if the request is accepted by investors.<br>
 The web application is developed using React and Next.js. It is not using create-react-app, because I found that Next.js has many advantages compared with create-react-app when building a multi-page application.<br>
 <br>
 The steps to develop an Ethereum web application, or a Blockchain web application generally, are:<br>
