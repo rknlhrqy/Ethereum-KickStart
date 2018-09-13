@@ -10,11 +10,13 @@
   "scripts": {
     "test": "mocha",
     "dev": "node server.js",
-    "start": "node server.js"
+    "next": "next build",
+    "start": "concurrently \"npm run next\" \"npm run dev\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^4.0.1",
     "fs-extra": "^5.0.0",
     "ganache-cli": "^6.1.0",
     "mocha": "^5.1.0",
