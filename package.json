@@ -10,8 +10,9 @@
   "scripts": {
     "test": "mocha",
     "dev": "node server.js",
-    "prestart": "next build",
-    "start": "node server.js"
+    "prestart": "node ./ethereum/compile.js",
+    "start": "next build",
+    "poststart": "node server.js"
   },
   "author": "",
   "license": "ISC",
