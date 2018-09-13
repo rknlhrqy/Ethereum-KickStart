@@ -19,3 +19,6 @@ This applicatoin is using Infura API to access Rinkeby test network. Please sign
 Before running this application, you need to build and deploy the smart contract in Rinkeby network. In the root folder, just run:<br>
 1, "node ./ethereum/compile.js"<br>
 2, "node ./ethereum/deploy.js"<br>
+<br>
+<br>
+This application is deployed at https://udemy-ethereum-kickstart.herokuapp.com/. Try it.
